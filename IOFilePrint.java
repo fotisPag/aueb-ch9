@@ -24,7 +24,6 @@ public class IOFilePrint {
         ps.println("Hello world from Printstream");
         pw.println("Hello world from PrintWriter");
 
-
         ps.close();
         pw.close();
     }
