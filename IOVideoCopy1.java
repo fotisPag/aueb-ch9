@@ -20,7 +20,7 @@ public class IOVideoCopy1 {
         try (FileInputStream in = new FileInputStream("C:/Users/Fotis/Videos/OPA/Video- 9. ΕίσοδοςΈξοδος Δεδομένων απόσε Αρχεία/9.5/test-video.mkv");
              FileOutputStream out = new FileOutputStream("C:/Users/Fotis/Videos/OPA/Video- 9. ΕίσοδοςΈξοδος Δεδομένων απόσε Αρχεία/9.5/test-video-copy.mkv")) {
 
-            long start = System.nanoTimcd e();
+            long start = System.nanoTime();
             while ((b = in.read()) != -1) {
                 out.write(b);
                 count++;
